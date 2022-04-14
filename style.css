@@ -1,6 +1,10 @@
 :root{
-    primary-dark:#1F2937;
-    primary-green: #6EE7b7;
+    --primary-dark:#1F2937;
+    --primary-green: #6EE7b7;
+}
+body{
+    background-color: var(--primary-dark);
+    color: var(--primary-green);
 }
 h1{
  text-align: center;
